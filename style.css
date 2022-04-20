@@ -1,0 +1,59 @@
+body{
+    background-color: darkslategray;
+    color: blanchedalmond;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    color: orangered;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+.pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blue{
+    color: blue;
+}
+.calm{
+    text-align: center;
+    font-size: 30px;
+    color: darkorange;
+}
+
+.inspiration{
+    text-align: center ;
+    text-decoration: underline;
+    color: red;
+    font-size: 20px;
+}
+.table{
+    color: orangered;
+}
+table{
+    color: orangered;
+}
+ul{
+    color: darkorange;
+}
+
+.hobby{
+    color: darkorange;
+}
+
+.count{
+    color: orangered;
+}
+.story{
+    color: darkorange;
+}
