@@ -9,4 +9,4 @@ For the html-introduction we learn following languages:
 
 Also we learn how to use basic GIT (f.e. how to locally change a file and post it online on github by using git terminal)
 
-link: https://github.com/glinchflash/html-introduction/blob/main/index.html
+link: https://glinchflash.github.io/html-introduction/
