@@ -39,9 +39,11 @@ h3{
 }
 .table{
     color: orangered;
+
 }
-table{
+table, th, td {
     color: orangered;
+    border: 2px solid;
 }
 ul{
     color: darkorange;
