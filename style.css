@@ -45,17 +45,40 @@ table, th, td {
     color: orangered;
     border: 2px solid;
 }
-ul{
+.list{
+    position:absolute;
+    top: 560px;
+    left: 520px;
     color: darkorange;
 }
 
 .hobby{
+    position: absolute;
+    top: 525px;
+    left: 550px;
     color: darkorange;
 }
 
 .count{
     color: orangered;
+    position: absolute;
+    top: 525px;
+    left: 900px;
+}
+.count2{
+    color: orangered;
+    position: absolute;
+    top: 560px;
+    left: 950px;
+    inline-size: 250px;
+    overflow-wrap: break-word;
+    font-size: larger;
 }
 .story{
     color: darkorange;
+    text-align: center;
+}
+.story2{
+    color: orangered;
+    text-align: center;
 }

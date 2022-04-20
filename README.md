@@ -1,3 +1,4 @@
+In the link below is my personal introduction.
 this introduction helps us get the grasp on the basic html and css functionalities.
 the introduction and information is provided to me by Becode for our course:
 Junior full stack webdeveloper.
