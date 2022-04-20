@@ -82,3 +82,12 @@ table, th, td {
     color: orangered;
     text-align: center;
 }
+button{
+    border-radius: 50%;
+    background-color: orangered;
+    transition-duration: 0.4s;
+}
+button:hover{
+    background-color:cornflowerblue;
+    color: black;
+}
