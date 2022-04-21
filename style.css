@@ -1,11 +1,10 @@
 body{
-    background-color: darkslategray;
-    color: blanchedalmond;
+    background-color: grey;
 }
 h1{
     text-align: center;
     font-weight: bold;
-    color: orangered;
+    color: darkred;
 }
 
 h2{
@@ -21,6 +20,17 @@ h3{
     margin-left: auto;
     margin-right: auto;
 }
+.gif1{
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+.gif2{
+    position: absolute;
+    top: 100px;
+    right: 50px;
+}
 
 .blue{
     color: blue;
@@ -28,45 +38,45 @@ h3{
 .calm{
     text-align: center;
     font-size: 30px;
-    color: darkorange;
+    color: orange;
 }
 
 .inspiration{
     text-align: center ;
     text-decoration: underline;
-    color: red;
+    color: darkred;
     font-size: 20px;
 }
 .table{
-    color: orangered;
+    color: darkred;
 
 }
 table, th, td {
-    color: orangered;
+    color: darkred;
     border: 2px solid;
 }
 .list{
     position:absolute;
     top: 560px;
     left: 520px;
-    color: darkorange;
+    color: orange;
 }
 
 .hobby{
     position: absolute;
     top: 525px;
     left: 550px;
-    color: darkorange;
+    color: orange;
 }
 
 .count{
-    color: orangered;
+    color: darkred;
     position: absolute;
     top: 525px;
     left: 900px;
 }
 .count2{
-    color: orangered;
+    color: darkred;
     position: absolute;
     top: 560px;
     left: 950px;
@@ -75,19 +85,29 @@ table, th, td {
     font-size: larger;
 }
 .story{
-    color: darkorange;
+    color: orange;
     text-align: center;
+    white-space: break-spaces;
 }
 .story2{
-    color: orangered;
+    color: darkred;
     text-align: center;
 }
 button{
     border-radius: 50%;
-    background-color: orangered;
-    transition-duration: 0.4s;
+    background-color: coral;
+    color: green;
+    transition-duration: 0.8s;
 }
 button:hover{
     background-color:cornflowerblue;
-    color: black;
+    color: orange;
+}
+footer{
+    position: fixed;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: coral;
 }
