@@ -1,5 +1,12 @@
 body{
+    margin: 0 0 0 0;
     background-color: grey;
+}
+header{
+    text-align: center;
+    margin-top: -22px;
+    background-color: coral;
+    width: 100%;
 }
 h1{
     text-align: center;
@@ -40,6 +47,10 @@ h3{
     font-size: 30px;
     color: orange;
 }
+div{
+    background-color: coral;
+    color: darkred;
+}
 
 .inspiration{
     text-align: center ;
@@ -57,31 +68,29 @@ table, th, td {
 }
 .list{
     position:absolute;
-    top: 560px;
-    left: 520px;
-    color: orange;
+    top: 500px;
+    left: 650px;
+    color: darkred;
 }
 
 .hobby{
     position: absolute;
-    top: 525px;
-    left: 550px;
-    color: orange;
+    top: 470px;
+    left: 680px;
 }
 
 .count{
     color: darkred;
     position: absolute;
-    top: 525px;
-    left: 900px;
+    top: 470px;
+    left: 1100px;
 }
 .count2{
     color: darkred;
     position: absolute;
-    top: 560px;
-    left: 950px;
-    inline-size: 250px;
-    overflow-wrap: break-word;
+    top: 500px;
+    left: 1100px;
+    inline-size: 350px;
     font-size: larger;
 }
 .story{
