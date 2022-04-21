@@ -47,10 +47,11 @@ h3{
     font-size: 30px;
     color: orange;
 }
-div{
-    background-color: coral;
+.context{
     color: darkred;
+    border:dashed darkred;
 }
+
 
 .inspiration{
     text-align: center ;
@@ -115,35 +116,60 @@ button:hover{
 p{
     color: orange;
 }
-.row {
-    display: flex;
-    background-color: transparent;
+#nyan {
+    position: relative;
+    height: auto;
+    width: auto;
+    margin: 0 auto;
 }
 
-.column {
-    flex: 33.33%;
-    padding: px;
-    background-color: transparent;
+#nyan img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
 }
 
-.wasteland{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+#nyan img {
+    animation-name: fading;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-direction: alternate;
 }
 
-.zombie{
-    display: block;
-    margin-left: auto;
-    margin-right: 0
-    width: 50%;
+#nyan img:nth-of-type(1) {
+    animation-delay: 4s;
 }
-.nyanjoke{
-    text-align: center;
-    color: darkred;
-    font-size: 30px;
+
+#nyan img:nth-of-type(2) {
+    animation-delay: 2s;
 }
+
+#nyan img:nth-of-type(3) {
+    animation-delay: 0;
+}
+
+@keyframes fading {
+    0% {
+        opacity: 1;
+    }
+    17% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+    }
+    92% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 
 footer{
     position: fixed;
