@@ -112,6 +112,39 @@ button:hover{
     background-color:cornflowerblue;
     color: orange;
 }
+p{
+    color: orange;
+}
+.row {
+    display: flex;
+    background-color: transparent;
+}
+
+.column {
+    flex: 33.33%;
+    padding: px;
+    background-color: transparent;
+}
+
+.wasteland{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.zombie{
+    display: block;
+    margin-left: auto;
+    margin-right: 0
+    width: 50%;
+}
+.nyanjoke{
+    text-align: center;
+    color: darkred;
+    font-size: 30px;
+}
+
 footer{
     position: fixed;
     text-align: center;
