@@ -141,6 +141,11 @@ p{
     transition: opacity 4s ease-in-out
 }
 
+.nyantext{
+    text-align: center;
+    color: darkred;
+    font-size: 25px;
+}
 footer{
     position: fixed;
     text-align: center;
