@@ -105,8 +105,8 @@ table, th, td {
 }
 button{
     border-radius: 50%;
-    background-color: coral;
-    color: green;
+    background-color: darkred;
+    color: orange;
     transition-duration: 0.8s;
 }
 button:hover{
@@ -116,60 +116,30 @@ button:hover{
 p{
     color: orange;
 }
-#nyan {
-    position: relative;
-    height: auto;
-    width: auto;
-    margin: 0 auto;
+
+
+#nyan{
+    background-color: grey;
+    position:relative;
+    height:281px;
+    width: 200px;
+    margin:0 auto;
 }
 
-#nyan img {
-    position: absolute;
-    left: 0;
+#nyan img{
+    animation-name: fading;
+    position:absolute;
+    left:0;
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+    transition: opacity 4s ease-in-out;
 }
 
-#nyan img {
-    animation-name: fading;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-duration: 6s;
-    animation-direction: alternate;
+#nyan img.top:hover {
+    opacity: 0;
+    transition: opacity 4s ease-in-out
 }
-
-#nyan img:nth-of-type(1) {
-    animation-delay: 4s;
-}
-
-#nyan img:nth-of-type(2) {
-    animation-delay: 2s;
-}
-
-#nyan img:nth-of-type(3) {
-    animation-delay: 0;
-}
-
-@keyframes fading {
-    0% {
-        opacity: 1;
-    }
-    17% {
-        opacity: 1;
-    }
-    25% {
-        opacity: 0;
-    }
-    92% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
 
 footer{
     position: fixed;
